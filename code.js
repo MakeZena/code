@@ -1,9 +1,3 @@
-/*
-  * Title : Visametric autofill
-  * Author: Naderidev
-  * Github: https://github.com/naderidev
-*/
-
 if (window.location.href === 'https://ir-appointment.visametric.com/ir/appointment-form') {
     $(document).ready(function () {
         clearInterval(x)
