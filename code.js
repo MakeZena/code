@@ -5,13 +5,20 @@
 */
 
 if (window.location.href === 'https://ir-appointment.visametric.com/ir'){
-    const element = $("#legalizationBtn")
-    element.trigger('click')
+    $(document).ready(function (){
+        const element = $("#legalizationBtn")
+        element.trigger('click')
+    })
+
 }
 
 if (window.location.href === 'https://ir-appointment.visametric.com/ir//Legalization'){
-    $('#result0').trigger('click')
-    $('#result1').trigger('click')
+    $(document).ready(function (){
+        $('#result0').trigger('click')
+        $('#result1').trigger('click')
+    })
+
+  
 }
 
 if (window.location.href === 'https://ir-appointment.visametric.com/ir/appointment-form') {
