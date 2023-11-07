@@ -132,7 +132,7 @@ if (window.location.href === 'https://ir-appointment.visametric.com/ir/appointme
                 console.log('STEP 6 --> Personal detail form filled & second section finished')
             }
 
-            selectCityStep()
+            //selectCityStep()
         }
     })
 }
