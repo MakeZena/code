@@ -143,7 +143,7 @@ if (window.location.href === 'https://ir-appointment.visametric.com/ir/appointme
                 })
             }
 
-            selectCityStep()
+            selectCityStep(true)
         }
     })
 }
