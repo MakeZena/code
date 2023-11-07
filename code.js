@@ -152,11 +152,6 @@ if (window.location.href === 'https://ir-appointment.visametric.com/ir/appointme
                 openCalender()
             }
 
-            function openCalender() {
-                const calender = $('#datepicker > input')
-                calender.trigger('click')
-            }
-
             function delayBendaz() {
                 setTimeout(() => {
                     window.location.reload();
