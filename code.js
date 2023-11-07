@@ -1,3 +1,9 @@
+/*
+  * Title : Visametric autofill
+  * Author: Naderidev
+  * Github: https://github.com/naderidev
+*/
+
 if (window.location.href === 'https://ir-appointment.visametric.com/ir/appointment-form') {
     $(document).ready(function () {
         clearInterval(x)
@@ -130,9 +136,20 @@ if (window.location.href === 'https://ir-appointment.visametric.com/ir/appointme
                 next2.trigger('click')
                 prevent429(2)
                 console.log('STEP 6 --> Personal detail form filled & second section finished')
+
+                $('body').append(
+                    '<button id="reload-datepicker" class="btn btn-dark p-3 fs-5" style="position: fixed; bottom: 20px; left: 20px">RELOAD DATE</button>'
+                )
+
+                $("#reload-datepicker").on('click', function () {
+                    next2.trigger('click')
+                    prevent429(2)
+                    console.log('Notice: Date reloaded!')
+                    alert('Datepicker reloaded!')
+                })
             }
 
-            //selectCityStep()
+            selectCityStep()
         }
     })
 }
