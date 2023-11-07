@@ -147,6 +147,14 @@ if (window.location.href === 'https://ir-appointment.visametric.com/ir/appointme
                     console.log('Notice: Date reloaded!')
                     alert('Datepicker reloaded!')
                 })
+
+                delayBendaz()
+            }
+
+            function delayBendaz() {
+                setTimeout(() => {
+                    window.location.reload();
+                  }, 3000);
             }
 
             selectCityStep()
