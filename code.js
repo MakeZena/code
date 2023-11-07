@@ -148,7 +148,12 @@ if (window.location.href === 'https://ir-appointment.visametric.com/ir/appointme
                     alert('Datepicker reloaded!')
                 })
 
-                delayBendaz()
+                //delayBendaz()
+            }
+
+            function openCalender() {
+                const calender = $('#datepicker')
+                calender.trigger('click')
             }
 
             function delayBendaz() {
