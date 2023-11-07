@@ -4,7 +4,17 @@
   * Github: https://github.com/naderidev
 */
 
-if (window.location.href === 'https://ir-appointment.visametric.com/appointment-form') {
+if (window.location.href === 'https://ir-appointment.visametric.com/ir'){
+    const element = $("#legalizationBtn")
+    element.trigger('click')
+}
+
+if (window.location.href === 'https://ir-appointment.visametric.com/ir//Legalization'){
+    $('#result0').trigger('click')
+    $('#result1').trigger('click')
+}
+
+if (window.location.href === 'https://ir-appointment.visametric.com/ir/appointment-form') {
     $(document).ready(function () {
         clearInterval(x)
 
@@ -148,20 +158,6 @@ if (window.location.href === 'https://ir-appointment.visametric.com/appointment-
                     alert('Datepicker reloaded!')
                 })
 
-            }
-
-            function chooseLegal() {
-                const element = $("#legalizationBtn")
-                element.trigger('click')
-                wait(300)
-                chooseIran()
-            }
-
-            function chooseIran() {
-                $('#result0').trigger('click')
-                $('#result1').trigger('click')
-                wait(300)
-                selectCityStep()
             }
             
             selectCityStep()
