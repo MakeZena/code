@@ -149,7 +149,6 @@ if (window.location.href === 'https://ir-appointment.visametric.com/ir/appointme
                 })
 
                 //delayBendaz()
-                openCalender()
             }
 
             function delayBendaz() {
