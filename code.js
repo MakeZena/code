@@ -16,6 +16,7 @@ if (window.location.href === 'https://ir-appointment.visametric.com/ir/Legalizat
     $(document).ready(function (){
         $('#result0').trigger('click')
         $('#result1').trigger('click')
+        $('#btnSubmit').trigger('click')
     })
 
   
