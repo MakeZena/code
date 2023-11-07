@@ -12,7 +12,7 @@ if (window.location.href === 'https://ir-appointment.visametric.com/ir'){
 
 }
 
-if (window.location.href === 'https://ir-appointment.visametric.com/ir//Legalization'){
+if (window.location.href === 'https://ir-appointment.visametric.com/ir/Legalization'){
     $(document).ready(function (){
         $('#result0').trigger('click')
         $('#result1').trigger('click')
